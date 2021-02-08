@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Todo from './Todo';
 import { v4 as uuidv4 } from 'uuid';
 import NewTodoForm from './NewTodoForm';
+import './TodoList.css';
 
 export class TodoList extends Component {
   constructor(props) {
@@ -61,8 +62,10 @@ export class TodoList extends Component {
     });
 
     return (
-      <div>
-        <h1>Todo List!</h1>
+      <div className="TodoList">
+        <h1>
+          Todo List <span>A Simple React Todo List App</span>
+        </h1>
         <ul>{todos}</ul>
         <NewTodoForm addTodo={this.addTodo} />
       </div>
