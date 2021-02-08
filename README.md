@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project is part of a Udemy course.
+[The Modern React Bootcamp (Hooks, Context, NextJS, Router)](https://www.udemy.com/course/modern-react-bootcamp/)
+
+## Styles from Code Pen
+
+[Styles used](https://codepen.io/saawsan/details/jayzeq)
+
 ## Available Scripts
 
 In the project directory, you can run:
