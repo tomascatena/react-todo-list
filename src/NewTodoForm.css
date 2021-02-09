@@ -1,23 +1,23 @@
 .NewTodoForm {
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
 }
 .NewTodoForm label {
   min-width: 100%;
-  margin-bottom: 0.5rem;
-  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
 }
 .NewTodoForm input {
   flex-grow: 1;
   border: none;
   background: #f7f1f1;
-  padding: 0 1.5em;
+  padding: 0 1em;
   font-size: initial;
   outline: none;
 }
 .NewTodoForm button {
-  padding: 0 1.3rem;
+  padding: 0 1rem;
   border: none;
   background: rgba(255, 255, 255, 0.2);
   color: white;
@@ -34,6 +34,12 @@
 }
 .NewTodoForm input,
 .NewTodoForm button {
-  font-family: "Quicksand", sans-serif;
-  height: 3rem;
+  font-family: 'Quicksand', sans-serif;
+  height: 2rem;
+}
+
+@media (max-width: 768px) {
+  .NewTodoForm input {
+    max-width: 60%;
+  }
 }

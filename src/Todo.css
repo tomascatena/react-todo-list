@@ -1,8 +1,8 @@
 .Todo {
   display: flex;
   margin: 0 -3rem 4px;
-  padding: 1.1rem 3rem;
-  height: 77px;
+  padding: 1rem 2rem;
+  height: 65px;
   justify-content: space-between;
   align-items: center;
   background: rgba(255, 255, 255, 0.2);
@@ -49,8 +49,8 @@
 
 .Todo-buttons button {
   border: none;
-  font-size: 1em;
-  margin: 0.4em;
+  font-size: 0.9em;
+  margin: 0.3em;
   background: none;
   -webkit-appearance: none;
   cursor: pointer;
@@ -64,17 +64,17 @@
 .Todo-edit-form label {
   min-width: 100%;
   margin-bottom: 0.5rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .Todo-edit-form input {
   flex-grow: 1;
   border: none;
   background: #f7f1f1;
-  padding: 0 1.5em;
+  padding: 0 1em;
   font-size: initial;
 }
 .Todo-edit-form button {
-  padding: 0 1.3rem;
+  padding: 0 1rem;
   border: none;
   background: #ff6666;
   color: white;
@@ -91,5 +91,11 @@
 .Todo-edit-form input,
 .Todo-edit-form button {
   font-family: 'Quicksand', sans-serif;
-  height: 3rem;
+  height: 2rem;
+}
+
+@media (max-width: 768px) {
+  .Todo-edit-form input {
+    max-width: 60%;
+  }
 }
